@@ -231,6 +231,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = "$(C74SUPPORT)/../Info.plist";
 				OTHER_LDFLAGS = "$(C74_SYM_LINKER_FLAGS)";
+				SDKROOT=macosx10.11;
 			};
 			name = Development;
 		};
@@ -249,6 +250,7 @@
 				);
 				INFOPLIST_FILE = "$(C74SUPPORT)/../Info.plist";
 				OTHER_LDFLAGS = "$(C74_SYM_LINKER_FLAGS)";
+				SDKROOT=macosx10.11;
 			};
 			name = Deployment;
 		};
